@@ -18,12 +18,12 @@ body {
 .app-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
 }
 
 .navbar-container {
     display: flex;
     align-items: center;
-    padding: 40px;
 }
 
 .navbar-container > img {
@@ -37,6 +37,7 @@ body {
     background-color: #fdfffe;
     color: #232323;
     padding: 16px;
+    width: 100%;
 }
 
 .custom-input:focus {
