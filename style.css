@@ -186,6 +186,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 10px;
+}
+
+.weekly-forecast-container .day-weather-item:nth-child(5) > img {
+  height: 45px;
 }
 
 .weekly-forecast-container .day-weather-item > div > p:first-child {
